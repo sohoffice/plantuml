@@ -70,6 +70,7 @@ import net.sourceforge.plantuml.packetdiag.PacketDiagramFactory;
 import net.sourceforge.plantuml.preproc.Defines;
 import net.sourceforge.plantuml.preproc.PreprocessingArtifact;
 import net.sourceforge.plantuml.regexdiagram.PSystemRegexFactory;
+import net.sourceforge.plantuml.salt.PSystemSaltFactory;
 import net.sourceforge.plantuml.sequencediagram.SequenceDiagramFactory;
 import net.sourceforge.plantuml.statediagram.StateDiagramFactory;
 import net.sourceforge.plantuml.sudoku.PSystemSudokuFactory;
@@ -113,6 +114,7 @@ public class PSystemBuilder2 {
 		factories.add(new YamlDiagramFactory());
 		factories.add(new PSystemEbnfFactory());
 		factories.add(new PSystemRegexFactory());
+		factories.add(new PSystemSaltFactory());
 		// ::comment when __MIT__ __EPL__ __BSD__ __ASL__ __LGPL__
 		factories.add(new PSystemSudokuFactory());
 		// ::done
